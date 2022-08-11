@@ -3,6 +3,8 @@
 Een repository om te laten zien hoe jij code schrijft en over code denkt.
 Een startpunt voor een goed gesprek over ons vak!
 
+Deze repository is een fork van het oorspronkelijke project van [Infi](https://github.com/infi-nl/everybody-codes), met wat wijzigingen specifiek voor het NPO-id team.
+
 ## Context
 
 Mogelijk ben je hier gekomen omdat je een tweede gesprek hebt met ons.
@@ -28,18 +30,18 @@ _Het heeft wél iets weg van een test_ (en dat is ook de bedoeling!), maar er zi
 ## De Opdracht
 
 De opdracht bestaat uit drie onderdelen waarin je gebruik maakt van de dataset die je vindt in [data/cameras-defb.csv](data/cameras-defb.csv).
-Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript, PHP, Java).
+Je mag de opdracht doen in een taal en tech stack naar keuze (wij zijn vooral bekend met C#, JavaScript/TypeScript, Python en Java/Kotlin).
 
 ## CLI
 
 Maak een programma of script dat de gebruiker in staat stelt om via de CLI te zoeken op een deel van een camera _name_, bijvoorbeeld:
 
 ```sh
-# PHP via de CLI aanroepen
-php search.php --name Neude
-
-# Of als je .NET Core hebt gebruikt
+# Als je .NET Core hebt gebruikt
 dotnet Search --name Neude
+
+# Als je Python hebt gebruikt
+python search.py --name Neude
 
 # Etc.
 ```
